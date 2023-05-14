@@ -1,4 +1,4 @@
-# Kalman Filter Object Tracking Project
+# Kalman Filter Object Tracking  
 
 The Kalman Filter Object Tracking project is a computer vision project that utilizes the Kalman Filter algorithm to track objects in a recorded or live video. This project can be used in surveillance, object detection, and tracking in real-time systems. 
 
