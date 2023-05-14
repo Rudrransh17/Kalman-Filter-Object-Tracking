@@ -29,7 +29,7 @@ fgbg = cv2.createBackgroundSubtractorMOG2()
 
 frame_no = 0
 # Initialize CSV file
-with open('car_positions.csv', mode='w', newline='') as car_file:
+with open('output.csv', mode='w', newline='') as car_file:
     writer = csv.writer(car_file, delimiter=',',
                             quotechar='"', quoting=csv.QUOTE_MINIMAL)
     writer.writerow(['Frame', 'X', 'Y', 'Color'])
